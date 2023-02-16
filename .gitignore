@@ -1,0 +1,7 @@
+# Dotnet specific
+[Bb]in/
+[Oo]bj/
+
+# User specific
+.idea
+*.sln.DotSettings.user

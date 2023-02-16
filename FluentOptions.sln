@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A7743E7-D67D-4097-B8D6-5AD05D7F8D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentOptions", "src\FluentOptions\FluentOptions.csproj", "{FA9142B1-0ADF-4B42-9743-427AD96F282F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentOptions.Tests", "src\FluentOptions.Tests\FluentOptions.Tests.csproj", "{EA6F1D71-D80E-4BBD-8BF7-5903B89FEB52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA9142B1-0ADF-4B42-9743-427AD96F282F} = {8A7743E7-D67D-4097-B8D6-5AD05D7F8D36}
+		{EA6F1D71-D80E-4BBD-8BF7-5903B89FEB52} = {8A7743E7-D67D-4097-B8D6-5AD05D7F8D36}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA9142B1-0ADF-4B42-9743-427AD96F282F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9142B1-0ADF-4B42-9743-427AD96F282F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9142B1-0ADF-4B42-9743-427AD96F282F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9142B1-0ADF-4B42-9743-427AD96F282F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA6F1D71-D80E-4BBD-8BF7-5903B89FEB52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6F1D71-D80E-4BBD-8BF7-5903B89FEB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6F1D71-D80E-4BBD-8BF7-5903B89FEB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6F1D71-D80E-4BBD-8BF7-5903B89FEB52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

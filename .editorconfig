@@ -1,0 +1,18 @@
+root=true
+
+[*]
+charset=utf-8
+indent_style=tab
+max_line_length=256
+end_of_line=lf
+insert_final_newline=false
+trim_trailing_whitespace=true
+
+# Analysis suppressions
+[*.cs]
+dotnet_diagnostic.CA1062.severity=none # Validate arguments of public methods - Nullable enabled
+dotnet_diagnostic.CS1591.severity=none # Missing XML comment for publicly visible type or member - Noise
+dotnet_diagnostic.CA1812.severity=none # Avoid uninstantiated internal classes - Dependency injection
+[*Tests.cs]
+dotnet_diagnostic.CA1707.severity=none # Identifiers should not contain underscores - Tests convention
+dotnet_diagnostic.CA1034.severity=none # (Public) Nested types should not be visible - Public required for Moq

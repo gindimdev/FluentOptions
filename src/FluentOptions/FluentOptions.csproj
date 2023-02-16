@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<!-- Version resolved in pipeline -->
+		<PackageId>GDD.FluentOptions</PackageId>
+		<RepositoryUrl>https://github.com/gindimdev/FluentOptions</RepositoryUrl>
+		<PackageTags>Options, FluentValidation, Validation, Configuration</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+		<EnablePackageValidation>true</EnablePackageValidation>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<!-- Solution README as package readme -->
+		<None Include="../../README.md" Pack="true" PackagePath="/"/>
+	</ItemGroup>
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+			<_Parameter1>GDD.FluentOptions.Tests</_Parameter1>
+		</AssemblyAttribute>
+
+		<PackageReference Include="Microsoft.Extensions.Options" Version="7.*" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.*" />
+		<PackageReference Include="FluentValidation" Version="11.*" />
+	</ItemGroup>
+</Project>
