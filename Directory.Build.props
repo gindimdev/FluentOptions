@@ -1,0 +1,16 @@
+<Project>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<RootNamespace>GDD.$(MSBuildProjectName)</RootNamespace>
+		<AssemblyName>$(RootNamespace)</AssemblyName>
+
+		<AnalysisMode>All</AnalysisMode>
+		<AnalysisLevel>latest</AnalysisLevel>
+		<CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+		<WarningsAsErrors>true</WarningsAsErrors>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	</PropertyGroup>
+</Project>
