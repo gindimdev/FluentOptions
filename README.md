@@ -1,4 +1,5 @@
-# Fluent options
+# FluentOptions
+[![NuGet](https://img.shields.io/nuget/v/GDD.FluentOptions)](https://www.nuget.org/packages/GDD.FluentOptions)
 
 ```csharp
 public class SampleOptions
