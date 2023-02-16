@@ -19,8 +19,8 @@
 			<_Parameter1>GDD.FluentOptions.Tests</_Parameter1>
 		</AssemblyAttribute>
 
-		<PackageReference Include="Microsoft.Extensions.Options" Version="7.*" />
-		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.*" />
-		<PackageReference Include="FluentValidation" Version="11.*" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="7.*"/>
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.*"/>
+		<PackageReference Include="FluentValidation" Version="11.*"/>
 	</ItemGroup>
 </Project>
