@@ -1,6 +1,7 @@
 # Dotnet specific
 [Bb]in/
 [Oo]bj/
+*.nupkg
 
 # User specific
 .idea
